@@ -1,0 +1,367 @@
+/* Miguel: Asi configuracion del gif busqueda */
+#contacto h2 {
+    display: flex;
+    align-items: center;
+}
+
+
+#contacto img {
+    width: 80px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.barra-navegacion {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    /* Mostrar los elementos en línea */
+    justify-content: space-between;
+    /* Distribuir los elementos en el espacio */
+    align-items: center;
+    /* Centrar verticalmente */
+    padding: 0 20px;
+}
+
+.barra-navegacion a {
+    color: rgb(67, 179, 201);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.barra-navegacion a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.icono {
+    display: inline-block;
+    margin-right: 0px;
+    /* Ajusta el margen entre los iconos */
+
+}
+
+.icono img {
+    width: 2em;
+    /* Miguel: asi Ajusta el tamaño de las imágenes al tamaño del texto 2SMR */
+    vertical-align: middle;
+    /* Miguel: asi Alinea verticalmente las imágenes con el texto */
+    width: 1.5em;
+    /* Miguel: asi Ajusta el tamaño de las imágenes al tamaño del texto */
+    vertical-align: middle;
+    /* Miguel: Asi alinea verticalmente las imágenes con el texto */
+}
+
+.imagen {
+    max-height: 150px;
+    /* Miguel: Asi Ajusta esta altura máxima según tus necesidades */
+
+}
+
+.imagen img {
+    width: 100%;
+    /* Miguel: Asi ajusta el ancho al 100% del contenedor */
+    height: 200px;
+    /* Miguel: Asi ajusta la altura según tus necesidades */
+    object-fit: cover;
+    /* Miguel: Asi recorta la imagen para que se ajuste al contenedor manteniendo su relación de aspecto */
+}
+
+/* Estilos para el encabezado */
+.titulo h1 {
+    color: #3fbbe0;
+    /* Miguel: Asi color para el texto del encabezado */
+    font-size: 2.5em;
+    /* Miguel: Asi tamaño de fuente más grande */
+    text-transform: uppercase;
+    /* Miguel: Asi transforma el texto a mayúsculas */
+    margin-bottom: 10px;
+    /* Miguel: Asi margen inferior para separarlo del texto siguiente */
+}
+
+.titulo h2 {
+    color: #53d5ec;
+    /* Miguel: Asi color para el subencabezado */
+    font-size: 1.2em;
+    /* Tamaño de fuente más pequeño */
+}
+
+/* Estilos para el contenido principal */
+body {
+    opacity: 1;
+    color: #000;
+    /* Miguel: Asi color para el texto principal */
+    font-size: 1.4em;
+    /* Miguel: Asi tamaño de fuente por defecto */
+    line-height: 1.6;
+    /* Miguel: Asi espaciado entre líneas */
+    background-image: url("/Imagenes/globo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* Miguel: Asi ajusta la altura al 100% del viewport */
+    color: rgb(246, 246, 246);
+    /* Miguel: Asi cambia el color del texto a blanco */
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    /* Miguel: Asi agrega un efecto de sombra al texto para que destaque */
+}
+
+/* Estilos específicos para los párrafos */
+p {
+    margin-bottom: 15px;
+    /* Miguel: Asi margen inferior entre párrafos */
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+    color: #fff;
+    /* Miguel: Asi color para los títulos de sección */
+    background-color: #333;
+    /* Miguel: Asi fondo oscuro para resaltar los títulos */
+    padding: 10px;
+    /* Miguel: Asi espaciado interior para los títulos */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #ffcc00;
+    /* Miguel: Asi color amarillo para los enlaces */
+    text-decoration: none;
+    /* Miguel: Asi quitar el subrayado de los enlaces */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Miguel: Asi subrayado al pasar el ratón sobre los enlaces */
+}
+
+#map-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+    /* Asegura que el mapa esté sobre el GIF */
+}
+
+/* Estilos para el contenedor del GIF */
+#gif-container {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+}
+
+/* Estilos para el GIF */
+#gif-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Miguel dice: Asi parte final de la página */
+footer {
+    color: black;
+    text-align: center;
+    background-color: #20b7bd;
+    padding: 10px 0;
+}
+
+#gif-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+#contacto h2 {
+    display: flex;
+    align-items: center;
+}
+
+#contacto img {
+    width: 80px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.barra-navegacion {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    /* Miguel: así mostrar los elementos en línea */
+    justify-content: space-between;
+    /* Miguel: así distribuir los elementos en el espacio */
+    align-items: center;
+    /* Miguel: así centrar verticalmente */
+    padding: 0 20px;
+}
+
+.barra-navegacion a {
+    color: rgb(67, 179, 201);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.barra-navegacion a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.icono {
+    display: inline-block;
+    margin-right: 0px;
+    /* Miguel: así ajusta el margen entre los iconos */
+
+}
+
+.icono img {
+    width: 2em;
+    /* Miguel: así Ajusta el tamaño de las imágenes al tamaño del texto 2SMR */
+    vertical-align: middle;
+    /* Miguel: así Alinea verticalmente las imágenes con el texto */
+    width: 1.5em;
+    /* Miguel: así Ajusta el tamaño de las imágenes al tamaño del texto */
+    vertical-align: middle;
+    /* Miguel: así alinea verticalmente las imágenes con el texto */
+}
+
+.imagen {
+    max-height: 150px;
+    /* Miguel: así ajusta esta altura máxima según tus necesidades */
+
+}
+
+.imagen img {
+    width: 100%;
+    /* Miguel: así ajusta el ancho al 100% del contenedor */
+    height: 200px;
+    /* Miguel: así ajusta la altura según tus necesidades */
+    object-fit: cover;
+    /* Miguel: así recorta la imagen para que se ajuste al contenedor manteniendo su relación de aspecto */
+}
+
+/* Estilos para el encabezado */
+.titulo h1 {
+    color: #3fbbe0;
+    /* Miguel: así color para el texto del encabezado */
+    font-size: 2.5em;
+    /* Miguel: así tamaño de fuente más grande */
+    text-transform: uppercase;
+    /* Miguel: así transforma el texto a mayúsculas */
+    margin-bottom: 10px;
+    /* Miguel: así margen inferior para separarlo del texto siguiente */
+}
+
+.titulo h2 {
+    color: #53d5ec;
+    /* Miguel: así color para el subencabezado */
+    font-size: 1.2em;
+    /* Miguel: así Tamaño de fuente más pequeño */
+}
+
+/* Miguel: así estilos para el contenido principal */
+body {
+    opacity: 1;
+    font-size: 1.4em;
+    /* Miguel: así tamaño de fuente por defecto */
+    line-height: 1.6;
+    /* Miguel: así espaciado entre líneas */
+    background-image: url("/Imagenes/globo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* Miguel: así ajusta la altura al 100% del viewport */
+    color: rgb(246, 246, 246);
+    /* Miguel: así cambia el color del texto a blanco */
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    /* Miguel: así agrega un efecto de sombra al texto para que destaque */
+}
+
+/* Estilos específicos para los párrafos */
+p {
+    margin-bottom: 15px;
+    /* Miguel: así margen inferior entre párrafos */
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+    color: #fff;
+    /* Miguel: así color para los títulos de sección */
+    background-color: #333;
+    /* Miguel: así fondo oscuro para resaltar los títulos */
+    padding: 10px;
+    /* Miguel: así espaciado interior para los títulos */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #ffcc00;
+    /* Miguel: así color amarillo para los enlaces */
+    text-decoration: none;
+    /* Miguel: así quitar el subrayado de los enlaces */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Miguel: así subrayado al pasar el ratón sobre los enlaces */
+}
+
+#map-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+    /* Miguel: así asegura que el mapa esté sobre el GIF */
+}
+
+/* Miguel: así estilos para el contenedor del GIF */
+#gif-container {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+
+/* Miguel: así configuramos contenedor GIF */
+#gif-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#gif-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+/* Miguel: así parte final de la página */
+footer {
+    color: black;
+    text-align: center;
+    background-color: #20b7bd;
+    padding: 10px 0;
+}
